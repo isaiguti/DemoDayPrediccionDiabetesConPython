@@ -496,13 +496,3 @@ fig = go.Figure(go.Bar(
             orientation='h'))
 
 fig.show()
-
-y_pred = rf_clf.predict(X_test)
-
-df.columns
-
-data = [1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1]
-len(data)
-df_res = df.drop(columns="Diabetes_012")
-df_res.iloc[1] = (1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1)
-df_res

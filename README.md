@@ -16,6 +16,8 @@ Librerias:
 - matplotlib
 - seaborn
 - scikit-learn
+- tensorflow
+- plotly
 
 ```python
 pip install matplotlib
@@ -23,4 +25,8 @@ pip install matplotlib
 pip install seaborn
 
 pip install -U scikit-learn
+
+pip install tensorflow
+
+pip install plotly
 ```
